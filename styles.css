@@ -104,7 +104,7 @@ a {
     margin-top: 0%;
 }
 
-#section1 {
+#section1, footer {
     background-color: #1f2937;
 }
 
@@ -161,11 +161,30 @@ a {
 
 #subscribeHeader {
     margin-bottom: 0%;
+    font-size: 1.5em;
 }
 
 #subscribeText {
     margin-top: 0%;
+    font-size: 1.2em;
 }
+
+footer {
+    background-color: #1f2937;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+    font-size: 1.1em;
+    color: white;
+}
+
+
 
 @media screen and (max-width: 768px) {
     #presentation {
@@ -193,6 +212,7 @@ a {
     #callToAction {
         padding: 1em 5em 1em 5em;
     }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -261,6 +281,10 @@ a {
     }
     #callToAction {
         padding: 0.5em 2.5em 0.5em 2.5em;
+    }
+
+    #copyright {
+        font-size: 0.9em;
     }
 }
 
