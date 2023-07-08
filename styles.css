@@ -111,6 +111,8 @@ a {
     width: 100%;
 }
 
+
+
 @media screen and (max-width: 768px) {
     #presentation {
         flex-wrap: wrap;
@@ -177,5 +179,9 @@ a {
         padding: 5% 40% 5% 40%;
         background-color: black;
         border: 1px solid white;
+    }
+
+    #imagesSection2 {
+        gap: 7.5em 3em;
     }
 }
