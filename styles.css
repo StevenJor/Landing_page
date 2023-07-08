@@ -7,6 +7,36 @@ body {
 
 }
 
+.centerText {
+    text-align: center;
+    margin-top: 0%;
+}
+
+.sizeImg {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1em;
+    border: 0.25rem solid blue;
+}
+
+.imageContainer {
+    width: 12.50rem;
+    height: 12.50rem;
+}
+
+#imagesSection2 {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+#header2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
 #menuIcon {
     display: none;
 }
@@ -92,6 +122,10 @@ a {
     }
     #description {
         padding: 2em 5.5em;
+    }
+    #imagesSection2 {
+        flex-wrap: wrap;
+        gap: 7em 3em;
     }
 }
 
